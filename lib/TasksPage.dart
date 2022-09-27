@@ -202,6 +202,18 @@ Widget _buildWeeklyTasks() => Container(
                             new User('source/images/avatar1.png'),
                             new User('source/images/avatar1.png'),
                             new User('source/images/avatar1.png'),
+                            new User('source/images/avatar1.png'),
+                            new User('source/images/avatar1.png'),
+                            new User('source/images/avatar1.png'),
+                            new User('source/images/avatar1.png'),
+                            new User('source/images/avatar1.png'),
+                            new User('source/images/avatar1.png'),
+                            new User('source/images/avatar1.png'),
+                            new User('source/images/avatar1.png'),
+                            new User('source/images/avatar1.png'),
+                            new User('source/images/avatar1.png'),
+                 
+                
                           ],
                         ),
                       ),

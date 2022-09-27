@@ -10,9 +10,12 @@ class MindRelax extends StatefulWidget {
 class _MindRelaxState extends State<MindRelax> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.white,
-      child: _buildMainColumn(),
+    return Material(
+       type: MaterialType.transparency,
+      child: Container(
+        color: Colors.white,
+        child: _buildMainColumn(),
+      ),
     );
   }
 }
@@ -75,10 +78,12 @@ Widget _buildMainColumn() => ListView(
             ),
           ),
         ),
-        _buildSongItem('Sweet Memories', 'December 29 Pre-Launch', Color.fromARGB(255, 47, 128, 23)),
-        _buildSongItem('A Day Dream', 'December 29 Pre-Launch', Color.fromARGB(255, 3, 158, 162)),
-        _buildSongItem('Mind Explore', 'December 29 Pre-Launch', Color.fromARGB(255, 240, 146, 53)),
-
+        _buildSongItem('Sweet Memories', 'December 29 Pre-Launch',
+            Color.fromARGB(255, 47, 128, 23)),
+        _buildSongItem('A Day Dream', 'December 29 Pre-Launch',
+            Color.fromARGB(255, 3, 158, 162)),
+        _buildSongItem('Mind Explore', 'December 29 Pre-Launch',
+            Color.fromARGB(255, 240, 146, 53)),
       ],
     );
 
@@ -87,7 +92,8 @@ Widget _buildImage() => Container(
       child: Image.asset('source/images/pic2.png'),
     );
 
-Widget _buildSongItem(String title, String description, Color color) => Container(
+Widget _buildSongItem(String title, String description, Color color) =>
+    Container(
       padding: EdgeInsets.only(
         top: 10,
         left: 30,
@@ -134,5 +140,3 @@ Widget _buildSongItem(String title, String description, Color color) => Containe
         ],
       ),
     );
-
-

@@ -1,8 +1,8 @@
 //ignore_for_file: prefer_const_constructors
 import 'package:flutter/material.dart';
-import 'package:log_in_page/test.dart';
-import 'package:log_in_page/test2.dart';
-import 'package:log_in_page/test3.dart';
+import 'package:log_in_page/LogInPage.dart';
+import 'package:log_in_page/MindRelax.dart';
+import 'package:log_in_page/TasksPage.dart';
 
 void main() => runApp(const MyApp());
 
